@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 02 18:27:18 2018
-
-@author: ODsLaptop
-"""
-
 def barbell_calc(weight):
     # Subtract the weight of the bar
     # Divide by 2 for one side of barbell
