@@ -29,4 +29,4 @@ def barbell_calc(weight):
     print "2.5's: ", int(Two_Point_Five)
     print "1.25's:", int(One_Point_Two_Five)
     
-barbell_calc(305)
+barbell_calc(405)
