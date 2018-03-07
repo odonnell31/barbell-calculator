@@ -22,7 +22,7 @@ def barbell_calc(weight):
         One_Point_Two_Five = weight/1.25
         weight = weight - (1.25*One_Point_Two_Five)
         
-        print "Required weights on each side of barbell (in lbs):"
+        print "Required weights on each side of barbell (in lb's):"
         print "45's:  ", Fourty_Five
         print "25's:  ", Twenty_Five
         print "10's:  ", Ten
