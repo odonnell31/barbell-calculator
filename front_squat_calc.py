@@ -3,6 +3,14 @@ def front_squat_calc(current_lift, goal_lift, body_weight):
     difference = float(goal_lift - current_lift)
     #weeks = difference/2.5
     
+    if goal_lift > 1.2*body_weight:
+        print "Solid goal..."
+    elif goal_lift > body_weight:
+        print "You could aim for a heavier goal.."
+    else:
+        print "Set your goal higher!"
+        break
+    
     week_num = 1
     while difference > 0.0:
         print "Week:",week_num
@@ -16,5 +24,7 @@ def front_squat_calc(current_lift, goal_lift, body_weight):
         week_num = week_num + 2
         #print int(weeks)
     print "go for it, 1 rep!:",goal_lift
+    
+
 
 print front_squat_calc(200, 225, 168)
