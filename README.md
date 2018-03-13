@@ -4,10 +4,9 @@ The barbell calculator converts weight (in pounds or kilograms) to quantities of
 
 Below is an example of the project's output:
 
+![Alt text](img/barbell_calc_png.png)
 
 This project also has a file for weightlifting in kilograms.
-
-
 
 ## To Use
 
@@ -17,10 +16,6 @@ To use this project copy the code from each file (barbell_calc, barbell_calc_kg)
 barbell_calc(weight)
 barbell_calc_kg(weight)
 ```
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
 ## Prerequisites
 
