@@ -1,9 +1,65 @@
-# barbell-calculator
+# Barbell Calculator
 
-Weightlifting is popular, and people like to compare (or show off) their strength/skill by citing the weight they can lift.
-But sometimes, it's hard to think about how much weight a number corresponds to on a barbell.
-For example, how many 45 lb plates are constitute a 500 lb lift?
-More specifically, how many weights do I need to put on each side of a standard barbell for a 500 lb lift?
+The barbell calculator converts weight (in pounds or kilograms) to quantities of standard exercise weights on a barbell. This calculation is a common pain point in the weightlifting community because the exercise weights only exist at specific weights. Also, the barbell itself has weight. Thus, it takes some thought for a weightlifter to determine the weights needed for a barbell lift.
 
-So, these python files solve that common question.
-The barcbell-calculator calculates the weights needed for a barbell lift of any weight.
+Below is an example of the project's output:
+
+
+This project also has a file for weightlifting in kilograms.
+
+
+
+## To Use
+
+To use this project copy the code from each file (barbell_calc, barbell_calc_kg) into your python file. Then, call the functions:
+
+```sh
+barbell_calc(weight)
+barbell_calc_kg(weight)
+```
+
+## Usage example
+
+A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+
+## Prerequisites
+
+Python 2.6
+
+## Run tests on this project
+
+```sh
+barbell_calc(95)
+```
+Expected output:
+
+Required weights for a 100 lb lift
+On each side of barbell (in lb's):
+45's:   0
+25's:   1
+10's:   0
+5's:    0
+2.5's:  1
+1.25's: 0
+
+```sh
+barbell_calc_kg(100)
+```
+Expected output:
+
+Required weights for a 100 kg lift
+On each side of barbell (in kg's):
+25's:   1
+20's:   0
+15's:   1
+10's:   0
+5's:    0
+2.5's:  0
+1.25's: 0
+0.5's:  0
+0.25's: 0
+
+## Author
+
+Michael O'Donnell
+mro4354@gmail.com
