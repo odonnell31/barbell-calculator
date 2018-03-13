@@ -1,4 +1,6 @@
 def barbell_calc_kg(weight):
+    print ""
+    print "Required weights for a", weight, "kg lift"
     #weight = weight * 0.45359237
     # Subtract the weight of the bar
     # Divide by 2 for one side of barbell
@@ -32,7 +34,7 @@ def barbell_calc_kg(weight):
         Point_Two_Five = weight/0.25
         weight = weight - (0.25*Point_Two_Five)
         
-        print "Required weights on each side of barbell (in kg's):"
+        print "On each side of barbell (in kg's):"
         print "25's:  ", Twenty_Five
         print "20's:  ", Twenty
         print "15's:  ", Fifteen
